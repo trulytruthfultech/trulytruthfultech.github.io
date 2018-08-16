@@ -1,0 +1,99 @@
+/*--------------------------------------------------------------*/
+/*ALL CSS IN THIS SECTION IS SPECIFIC TO THE MAIN BLOG FEED PAGE*/
+/*--------------------------------------------------------------*/
+
+.post{
+	border: 10px solid #bdc3c7;
+	border-spacing: center;
+	padding: 20px;
+	max-width: 700px;
+	width: 80%;
+	margin: 20px auto;
+	font-family: Source sans pro;
+	padding-top: 50px;
+
+	background-color: #FFF8DC;
+}
+
+.quote{
+	border-left: 5px solid #bdc3c7;
+	padding-left: 5px;
+}
+
+.info{
+	color: #3498db;
+	text-transform: uppercase;
+	letter-spacing: 0.2rem
+}
+
+.author{
+	color: #3498db;
+	text-transform: uppercase;
+	letter-spacing: 0.2rem
+}
+
+.post{
+	margin-bottom: 20px;
+}
+
+h2{
+	color: #2c3e50;
+	font-size: 2.0rem;
+}
+
+hr{
+}
+
+#blogpostimg{
+	width: 100%;
+	margin: 20px auto;
+	border: 5px solid;
+	/*border-color: #000080 #000000 #808080 #66CDAA;*/
+	border-color: #bdc3c7;
+}
+
+#firstPostViewed{
+	margin-top: 70px;
+}
+
+/*----------------------------------------------------------*/
+/*EVERYTHING BELOW THIS COMMENT IS STANDARD TO ALL CSS FILES*/
+/*----------------------------------------------------------*/
+
+/*defaults for dropdown article bar (the actually dropdown bar background)*/
+.navbar-nav > li > .dropdown-menu {
+	background-color: #101010; 
+}
+
+/*defaults for dropdown article bar (articles/text)*/
+.navbar-nav > li > .dropdown-menu a{   
+	color: #ffffff;
+	text-decoration: none;
+	text-decoration-color: gray; 
+}
+
+/*dropdown effect (standard)*/
+.dropdown .dropdown-menu {
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+
+    max-height: 0;
+    display: block;
+    overflow: hidden;
+    opacity: 0;
+}
+
+/*dropdown effect (standard)*/
+.dropdown.open .dropdown-menu {
+    max-height: 300px;
+    opacity: 1;
+}
+
+/*hover effect makes dropdown text for articles bar gray*/
+.navbar-nav > li > .dropdown-menu a:hover{
+	-webkit-transition: all 0.3s;
+	color: #9d9d9d;
+}

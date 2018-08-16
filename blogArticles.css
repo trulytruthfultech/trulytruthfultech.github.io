@@ -1,0 +1,61 @@
+body {
+	padding-top: 70px;
+}
+
+.jumbotron {
+	color: #2c3e50;
+	background: #ecf0f1;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+	color: white;
+}
+
+.navbar-inverse {
+	background: #2c3e50;
+}
+
+.navbar-inverse .navbar-brand {
+	color: white;
+}
+
+#bordered img{
+	width: 350px;
+	height: 199.125px;
+}
+
+#articlepicture{
+	width: 400px;
+	height: 199.125px;
+}
+
+.hoveropaque #img:hover{
+	transition: .5s;
+	/*opacity: .5;*/
+	filter:blur(4px);
+	text-decoration: none;
+}
+
+.hoveropaque:hover{
+	transition: .5s;
+	text-decoration: none;
+	/*color: #ffffff;*/
+	color: red;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.hoveropaque{
+	color: black;
+	background-color: #ddd;
+	font-size: 100%;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+#bordered{
+	border: 10px solid #ddd;
+	background-color: #ddd;
+}
+
+#jumbo{
+	text-align: center;
+}
